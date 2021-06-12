@@ -1,0 +1,38 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: rgb(63, 63, 63);
+}
+.btnRegistro {
+    border: none;
+    cursor: pointer;
+    font-size: 2rem;
+    padding: 1rem 2rem;
+    margin: 1rem;
+    color: white;
+    background:linear-gradient(to right, rgb(12, 175, 91) 50%, rgb(212, 125, 18) 50%) no-repeat left / 200%;
+    transition: background-position 0.3s ease;
+}
+.btnRegistro:hover {
+    background-position: right;
+    color: black;
+}
+.btnContacto{
+    border: none;
+    cursor: pointer;
+    font-size: 2rem;
+    padding: 1rem 2rem;
+    margin: 1rem;
+    color: rgb(237, 230, 23);
+    border: 2px solid;
+    background:linear-gradient(to right, transparent 50%, rgb(237, 230, 23) 50%) no-repeat left / 200%;
+    transition: background-position 0.3s ease;   
+}
+.btnContacto:hover{
+background-position: right; 
+color: black; 
+border: 2px solid rgb(237, 230, 23);
+}
